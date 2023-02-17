@@ -108,7 +108,7 @@
 .overlay-white{
   &:before {
     content: '';
-    background: linear-gradient(0deg, rgba(245,245,248,0.8) 0%, rgba(247,247,247,1) 100%);
+    background: #ffffff33;
     position: absolute;
     top: 0;
     left: 0;
@@ -119,7 +119,7 @@
 .overlay-gray{
   &:before {
     content: '';
-    background: $gray;
+    background: #4d4d4dce;
     position: absolute;
     top: 0;
     left: 0;
@@ -189,7 +189,7 @@ button{
 }
 
 .bg-banner-one{
-  background: url(../images/background/home_page.jpg) fixed no-repeat;
+  background: url(../images/background/home_page_1.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }

@@ -920,7 +920,7 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
 }
 .banner .block h1 {
-  font-size: 45px;
+  font-size: 35px;
   color: #eeeeee;
   padding: 10px 20px 10px 20px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -928,6 +928,7 @@ select.form-control:not([size]):not([multiple]) {
   font-weight: 800;
   margin-bottom: 15px;
   line-height: 45px;
+  text-align: center;
 }
 .banner .block h2 {
   font-size: 35px;
@@ -950,7 +951,7 @@ select.form-control:not([size]):not([multiple]) {
 .banner .block h4 {
   text-align: center;
   padding: 10px 5px 10px 5px;
-  font-size: 35px;
+  font-size: 20px;
   background-color: #eeeeee;
   color: #0F8407;
   border-radius: 10px;
@@ -985,54 +986,28 @@ select.form-control:not([size]):not([multiple]) {
     text-align: center;
   }
 }
-.about .content-block h2 {
+.about .content-block h1 {
+  margin-top: -50px;
   margin-bottom: 35px;
 }
-.about .content-block h2:after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background: #0F8407;
-  display: block;
-  font-size: 10px;
-  margin-top: 10px;
-}
-@media (max-width: 767px) {
-  .about .content-block h2:after {
-    margin: auto;
-  }
-}
-.about .content-block .heading {
-  margin-bottom: 20px;
-}
-.about .content-block .heading h2 {
-  color: #222222;
-  font-size: 20px;
-  text-align: justify;
-}
 .about .content-block .TAB {
-  background-color: rgba(112, 112, 112, 0.2823529412);
+  background-color: #eeeeee;
   padding: 20px;
   border-radius: 10px;
   margin: 5px;
   color: #0F8407;
   font-weight: 600px;
-  margin-top: 50px;
-  margin-bottom: -50px;
-  transform: translate(0, -50%);
 }
-.about .content-block .description-one p {
+.about .content-block .TAB p {
   color: #0F8407;
-  font-size: 1.0625rem;
+  font-size: 20px;
   text-align: center;
   font-weight: 800px;
+  line-height: 25px;
 }
-.about .content-block .description-two {
-  margin-bottom: 10px;
-}
-.about .content-block .description-two p {
+.about .content-block .TAB h2 {
   color: #0F8407;
-  font-size: 0.9375em;
+  font-size: 20px;
   text-align: center;
   font-weight: 800px;
 }
@@ -1615,7 +1590,6 @@ select.form-control:not([size]):not([multiple]) {
   justify-content: center;
 }
 .organisers .table1-contents table {
-  align-self: center;
   margin-top: -40px;
   margin-bottom: -60px;
 }
@@ -1642,7 +1616,7 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: 50px;
   margin-bottom: -50px;
   justify-content: center;
-  align-self: center;
+  margin-bottom: 20px;
 }
 .organisers .list1 h3 {
   font-size: 20px;

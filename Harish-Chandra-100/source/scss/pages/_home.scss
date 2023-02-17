@@ -120,18 +120,32 @@
 			}
 			margin-bottom: 20px;
 		}
+		.TAB{
+			background-color: #70707048;
+			padding: 20px;
+			border-radius: 10px;
+			margin: 5px;
+			color: $primary-color;
+			font-weight: 600px;
+			margin-top: 50px;
+			margin-bottom: -50px;
+			transform: translate(0, -50%);
+		}
 		.description-one{
 			p{
-				color: $black;
+				color: $primary-color;
 				font-size: 1.0625rem;
-				text-align: justify;
+				text-align: center;
+				font-weight: 800px;
 			}
-			margin-bottom: 20px;
+
 		}
 		.description-two{
 			p{
+				color: $primary-color;
 				font-size: 0.9375em;
-				text-align: justify;
+				text-align: center;
+				font-weight: 800px;
 			}
 			margin-bottom: 10px;
 		}

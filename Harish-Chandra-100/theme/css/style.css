@@ -241,8 +241,8 @@ button:hover {
   background: #fafafa;
 }
 
-.bg-blue {
-  background: #0F8407;
+.bg-white2 {
+  background: rgba(34, 34, 34, 0.1333333333);
 }
 
 .bg-banner-one {
@@ -1010,20 +1010,31 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 20px;
   text-align: justify;
 }
-.about .content-block .description-one {
-  margin-bottom: 20px;
+.about .content-block .TAB {
+  background-color: rgba(112, 112, 112, 0.2823529412);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  color: #0F8407;
+  font-weight: 600px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  transform: translate(0, -50%);
 }
 .about .content-block .description-one p {
-  color: #222222;
+  color: #0F8407;
   font-size: 1.0625rem;
-  text-align: justify;
+  text-align: center;
+  font-weight: 800px;
 }
 .about .content-block .description-two {
   margin-bottom: 10px;
 }
 .about .content-block .description-two p {
+  color: #0F8407;
   font-size: 0.9375em;
-  text-align: justify;
+  text-align: center;
+  font-weight: 800px;
 }
 
 .speakers {
@@ -1594,6 +1605,47 @@ select.form-control:not([size]):not([multiple]) {
 .speakers-full-width .speaker-slider .slick-next:before {
   color: #0F8407;
   font-family: FontAwesome;
+}
+
+.organisers .table1-contents {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.organisers .table1-contents table {
+  align-self: center;
+  margin-top: -40px;
+  margin-bottom: -60px;
+}
+.organisers .table1-contents a {
+  color: black;
+}
+.organisers .table1-contents a:hover {
+  color: #0F8407;
+}
+.organisers .table1-contents tr {
+  border-bottom: 1px solid #000;
+}
+.organisers .table1-contents tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.organisers .table1-contents th, .organisers .table1-contents td {
+  padding: 5px 30px 5px 30px;
+}
+.organisers .table1-contents th {
+  background-color: #0F8407;
+  color: white;
+}
+.organisers .list1 {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  justify-content: center;
+  align-self: center;
+}
+.organisers .list1 h3 {
+  font-size: 20px;
 }
 
 .about {

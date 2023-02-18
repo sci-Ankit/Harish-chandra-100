@@ -246,7 +246,7 @@ button:hover {
 }
 
 .bg-banner-one {
-  background: url(../images/background/home_page_4.jpg) fixed no-repeat;
+  background: url(../images/background/home_page.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -583,11 +583,6 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav {
   background: #eeeeee;
 }
-@media (max-width: 767px) {
-  .main-nav {
-    position: fixed;
-  }
-}
 .main-nav .navbar-brand {
   padding: 10px 10px 10px 10px;
 }
@@ -613,12 +608,12 @@ select.form-control:not([size]):not([multiple]) {
   padding-right: 10px;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
-  font-size: 1.06rem;
+  font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 1352px) {
   .main-nav .navbar-nav .nav-item .nav-link {
-    font-size: 0.86rem;
+    font-size: 1.2rem;
     padding-right: 10px;
   }
 }
@@ -893,17 +888,15 @@ select.form-control:not([size]):not([multiple]) {
   border-radius: 5px;
 }
 .slider-div .div-slider .item .block .image {
-  width: 100%;
   display: flex;
   justify-content: center;
-}
-@media (max-width: 767px) {
-  .slider-div .div-slider .item .block .image {
-    flex-grow: 1;
-  }
+  width: 100%;
 }
 .slider-div .div-slider .item .block .image img {
-  height: 280px;
+  height: 300px;
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .slider-div .div-slider .owl-dots .owl-dot:hover span {
   background: #0F8407;
@@ -913,7 +906,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .banner {
-  padding: 300px 0 100px;
+  padding: 250px 0 100px;
   position: relative;
 }
 .banner .block {
@@ -930,14 +923,6 @@ select.form-control:not([size]):not([multiple]) {
   line-height: 45px;
   text-align: center;
 }
-.banner .block h2 {
-  font-size: 35px;
-  color: #eeeeee;
-  padding: 5px 20px 5px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  font-weight: 800;
-}
 .banner .block h3 {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -945,39 +930,11 @@ select.form-control:not([size]):not([multiple]) {
   border-radius: 15px;
   padding: 5px 20px 5px 20px;
   font-weight: 800;
-  margin-bottom: 50px;
-  /* text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3); */
 }
-.banner .block h4 {
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-  font-size: 20px;
-  background-color: #eeeeee;
-  color: #0F8407;
-  border-radius: 10px;
-  font-weight: 600;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+.banner .image-block img {
+  border-radius: 40%;
 }
 
-.about .image-block {
-  padding: 30px;
-}
-.about .image-block img {
-  height: 175px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 59px 0px rgba(11, 29, 66, 0.15);
-}
-.about .image-block h2 {
-  color: #242424;
-  margin-top: 5px;
-  font-size: 20px;
-}
-@media (max-width: 767px) {
-  .about .image-block {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-}
 .about .content-block {
   margin-left: 15px;
 }
@@ -997,15 +954,16 @@ select.form-control:not([size]):not([multiple]) {
   margin: 5px;
   color: #0F8407;
   font-weight: 600px;
+  height: 125px;
 }
-.about .content-block .TAB p {
+.about .content-block p {
   color: #0F8407;
   font-size: 20px;
   text-align: center;
   font-weight: 800px;
   line-height: 25px;
 }
-.about .content-block .TAB h2 {
+.about .content-block h2 {
   color: #0F8407;
   font-size: 20px;
   text-align: center;
@@ -1345,10 +1303,19 @@ select.form-control:not([size]):not([multiple]) {
 .venue a:hover {
   color: #38449A;
 }
+.venue iframe {
+  width: 100%;
+  height: 300px;
+  margin-right: 35px;
+}
 
 .address-block {
   background-color: #0F8407;
   text-align: center;
+  margin: auto;
+  max-width: 250px;
+  margin-bottom: 15px;
+  justify-content: center;
   padding: 10px 20px 30px 20px;
 }
 .address-block h1 {
@@ -1360,6 +1327,36 @@ select.form-control:not([size]):not([multiple]) {
   color: #eeeeee;
   font-size: 20px;
   padding: 0px 10px 10px 10px;
+}
+
+.travel .travel_info {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(141, 140, 140, 0.0941176471);
+  border-radius: 10px;
+}
+.travel .travel_info a {
+  color: #0F8407;
+}
+.travel .travel_info a:hover {
+  color: #38449A;
+}
+.travel .travel_info h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.travel .travel_info h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.travel .travel_info p {
+  font: 20px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .single-speaker .block {

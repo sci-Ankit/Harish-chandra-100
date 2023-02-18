@@ -1,8 +1,5 @@
 .main-nav {
 	background: $gray;
-	@include tablet {
-		position: fixed;
-	}
 
 	.navbar-brand {
 		padding: 10px 10px 10px 10px;
@@ -27,11 +24,11 @@
 				padding-right: 10px;
 				padding-top: 1.2rem;
 				padding-bottom: 1.2rem;
-				font-size: 1.06rem;
+				font-size: 1.8rem;
 				font-family: $secondary-font;
 
 				@include desktop-nav {
-					font-size: 0.86rem;
+					font-size: 1.2rem;
 					padding-right: 10px;
 				}
 

@@ -9,16 +9,15 @@
 
 				.image {
 
-					width: 100%;
 					display: flex;
 					justify-content: center;
+					width: 100%;
 
-					@include tablet {
-						flex-grow: 1;
-					}
 
 					img {
-						height: 280px;
+						height: 300px;
+						width: 500px;
+						object-fit: cover;
 
 
 					}

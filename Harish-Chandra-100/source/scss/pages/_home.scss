@@ -1,12 +1,10 @@
 // Banner Styles
 .banner{
-	padding: 300px 0 100px;
+	padding: 250px 0 100px;
 	position: relative;
 
 	.block{
 		position: relative;
-	
-
 		h1{
 			// text-transform: uppercase;
 		    font-size: 35px;
@@ -19,30 +17,8 @@
 			margin-bottom: 15px;
 			line-height: $LARGE;
 			text-align: center;
-			// @include tablet {
-			// 	font-size: 3.2rem;
-			// }
-			// @include mobile-xs{
-			// 	font-size: 2.3rem;
-			// }
 		}
-		h2{
-			// text-transform: uppercase;
-		    font-size: $large;
-			color: $gray;
-			padding: 5px 20px 5px 20px;
-			background-color: rgba(0, 0, 0, 0.5);
-			border-radius: 15px;
-			font-weight: 800;
-			//font-style: italic;
-			// @include tablet {
-			// 	font-size: 3.2rem;
-			// }
-			// @include mobile-xs{
-			// 	font-size: 2.3rem;
-			// }
-		}
-		
+	
 		h3{
 			color: white;
 			background-color: rgba(0, 0, 0, 0.5);
@@ -50,49 +26,18 @@
 			border-radius: 15px;
 			padding: 5px 20px 5px 20px;
 			font-weight: 800;
-			margin-bottom: 50px;
-			/* text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3); */
+
 		}
-		h4{
-			text-align: center;
-			padding: 10px 5px 10px 5px;
-			// text-transform: uppercase;
-		    font-size: 20px;
-			background-color: $gray;
-			color: $primary-color;
-			border-radius: 10px;
-			font-weight: 600;
-	        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-			//font-style: italic;
-			// @include tablet {
-			// 	font-size: 3.2rem;
-			// }
-			// @include mobile-xs{
-			// 	font-size: 2.3rem;
-			// }
+
+	}
+	.image-block{
+		img{
+			border-radius: 40%;
 		}
 	}
 }
 
 .about{ 
-	.image-block{
-		padding: 30px;
-		img{
-			height: 175px;
-			border-radius: 100%;
-			box-shadow: 0px 0px 59px 0px rgba(11, 29, 66, 0.15);
-		}
-		h2{
-			color: #242424;
-			margin-top: 5px;
-			font-size: 20px;
-		}
-		@include tablet {
-			margin-bottom: 30px;
-			text-align: center;
-		}
-
-	}
 	.content-block{
 		margin-left: 15px;
 		@include tablet {
@@ -110,6 +55,8 @@
 			margin: 5px;
 			color: $primary-color;
 			font-weight: 600px;
+			height: 125px;
+		}
 			p{
 				color: $primary-color;
 				font-size: 20px;
@@ -127,7 +74,7 @@
 
 
 	}
-}
+
 
 
 

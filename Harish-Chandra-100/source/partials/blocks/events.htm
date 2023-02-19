@@ -3,174 +3,38 @@
 ===============================-->
 
 
-	<div class="container">
-	
-		<div class="row">
-			<div class="col-12">
-				<div class="schedule-tab">
-					<ul class="nav nav-pills text-center">
-					  <li class="nav-item">
-					    <a class="nav-link active" href="#mar08" data-toggle="pill">
-					    	Day-01
-					    	<span>8th March 2023</span>
-					    </a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#mar09" data-toggle="pill">
-							Day-02
-					    	<span>9th March 2023</span>
-					    </a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#mar10" data-toggle="pill">
-							Day-03
-					    	<span>10th March 2023</span>
-					    </a>
-					  </li>
-					</ul>
+<div class="container">
+	<div class="row">
+		<div class="col-12 align-self-center">
+			<div class="content-block">
+				
+				<div class ="col-12 text-center">
+					<h1>Centernary Celebration Programs</h1>
 				</div>
-				<div class="schedule-contents bg-schedule">
-					<div class="tab-content" id="pills-tabContent">
-					  <div class="tab-pane fade show active schedule-item" id="mar08">
-					  	<!-- Headings -->
-					  	<ul class="m-0 p-0">
-							@@include('blocks/schedule-title.htm')
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-1",
-								"image" : "images/speakers/motz.jpg",
-								"chair-person": "Prof Guenter Motz",
-								"theme" : "PDC for Energy-I"
-							})
+				<div class="row">
+					@@include('blocks/event-item.htm',{
+						"name"		: "Workshop on <q>Representation theory of Real Lie groups and Automorphic forms</q> ",
+						"date"		: "2<sup>nd</sup> - 7<sup>th</sup> October, 2023.",
+						"link"		: "event1.html"
+					})
+					@@include('blocks/event-item.htm',{
+						"name"		: "Conference on Harish-Chandra",
+						"date"		: "9<sup>th</sup> - 14<sup>th</sup> October, 2023.",
+						"link"		: "event2.html"
+					})
+			
+					
+			
 
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-2",
-								"image" : "images/speakers/rajendra.jpg",
-								"chair-person": "Dr Raj Bordia",
-								"theme" : "PDC for Thermostructural applications-I"
-							})
+				</a>
 
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-				  		<!-- Schedule Details -->
-					</ul>
-					  </div>
-					  <div class="tab-pane fade schedule-item" id="mar09">
-					  	<!-- Headings -->
-					  	<ul class="m-0 p-0">
-							@@include('blocks/schedule-title.htm')
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-3",
-								"image" : "images/speakers/renjith.jpg",
-								"chair-person": "Dr Renjith Devasia",
-								"theme" : "PDC for Thermostructural applications-II"
-							})
-
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-4",
-								"image" : "images/speakers/stefan.jpg",
-								"chair-person": "Prof Stefan Schaffoener",
-								"theme" : "PDC for Energy-II"
-							})
-
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-							
-
-					  	</ul>
-					  </div>
-					  <div class="tab-pane fade schedule-item" id="mar10">
-					  	<!-- Headings -->
-						  <ul class="m-0 p-0">
-							@@include('blocks/schedule-title.htm')
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-5",
-								"image" : "images/speakers/Prof NVRK.jpg",
-								"chair-person": "Prof Ravi Kumar",
-								"theme" : "PDC for Thermostructural applications-III"
-							})
-
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-
-
-							<!-- @@include('blocks/schedule-item.htm',{
-								"time" : "9:00 AM",
-								"image" : "images/speakers/motz.jpg",
-								"speaker" :"AN",
-								"title" : "aa"
-							})
-							@@include('blocks/schedule-item.htm',{
-								"time" : "10:00 AM",
-								"image" : "images/speakers/motz.jpg",
-								"speaker" :"AN",
-								"title" : "aa"
-							})
-							@@include('blocks/schedule-item.htm',{
-								"time" : "11:00 AM",
-								"image" : "images/speakers/motz.jpg",
-								"speaker" :"AN",
-								"title" : "aa"
-							}) -->
-					  		<!-- Schedule Details -->
-					  		@@include('blocks/schedule-chair.htm',{
-								"session": "Session-6",
-								"image" : "images/speakers/csam.jpg",
-								"chair-person": "Prof Samuel Bernard",
-								"theme" : "PDC for Traslational Research"
-							})
-
-							<!-- CONTENT -->
-							@@include('blocks/schedule-item.htm',{
-								"time" : "",
-								"image" : "",
-								"speaker" :"TO BE UPDATED",
-								"title" : ""
-							})
-					</ul>
-					  </div>
-					</div>
 				</div>
-				@@if( button === true ){
-					<div class="download-button text-center">
-						<a href="#" class="btn btn-main-md">Download Schedule</a>
-					</div>
-				}
+			</div>
+				
 			</div>
 		</div>
+
 	</div>
+</div>
 
 <!--====  End of Schedule  ====-->

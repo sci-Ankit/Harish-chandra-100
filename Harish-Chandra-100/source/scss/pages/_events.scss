@@ -1,4 +1,42 @@
+.date{
+	margin: 20px;
+	margin-bottom: -20px;
+	justify-content: center;
+	
+	h3{
+		padding: 10px;
+		text-align: center;
+		color: $primary-color;
+	}
+}
+
 .organisers{
+
+	.list1{
+
+		justify-content: center;
+
+		h3{
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		li{
+			font-size: 20px;
+		}
+
+		
+	}
+}
+
+.Speakers{
+	margin-top: 50px;
+	ul{
+		columns: 2;
+	}
+	li{
+		font-size: 25px;
+		line-height: 35px;
+	}
 
 	.table1-contents{
 		margin-top: 30px;
@@ -33,15 +71,5 @@
 		
 
 	}
-	.list1{
-		margin-top: 50px;
-		margin-bottom: -50px;
-		justify-content: center;
-		margin-bottom: 20px;
-		h3{
-			font-size: 20px;
-		}
 
-		
-	}
 }

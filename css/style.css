@@ -706,6 +706,8 @@ button:hover {
   justify-content: center;
   text-align: justify;
   color: #1e4227;
+  font-size: 18px;
+  line-height: 24px;
 }
 .harish-content h4 {
   margin: 10px;
@@ -727,6 +729,7 @@ button:hover {
   font-size: 20px;
   justify-content: center;
   text-align: center;
+  color: #1e4227;
 }
 
 .moveup {

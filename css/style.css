@@ -241,7 +241,7 @@ button:hover {
 .contact p {
   font-size: 30px;
   width: 100%;
-  line-height: 35px;
+  line-height: 45px;
   font-weight: 600;
   color: #0F8407;
 }
@@ -725,6 +725,10 @@ button:hover {
   font-size: 20px;
   justify-content: center;
   text-align: center;
+}
+
+.moveup {
+  margin-top: -50px;
 }
 
 .about .content-block {

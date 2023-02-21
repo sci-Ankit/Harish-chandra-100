@@ -235,6 +235,17 @@ button:hover {
   outline: 0;
 }
 
+.contact {
+  text-align: center;
+}
+.contact p {
+  font-size: 30px;
+  width: 100%;
+  line-height: 35px;
+  font-weight: 600;
+  color: #0F8407;
+}
+
 .btn {
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
@@ -341,7 +352,7 @@ button:hover {
 .main-nav .navbar-brand {
   padding: 10px 10px 10px 10px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .main-nav .navbar-brand {
     padding: 10px 10px;
   }
@@ -372,7 +383,7 @@ button:hover {
     padding-right: 10px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .main-nav .navbar-nav .nav-item .nav-link {
     padding-left: 4px;
     padding-right: 10px;
@@ -388,12 +399,12 @@ button:hover {
   color: #222222;
   margin-left: 16px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .main-nav .navbar-nav .nav-item .nav-link span {
     margin-left: 10px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
   .main-nav .navbar-nav .nav-item .nav-link span {
     margin-left: 10px;
   }
@@ -459,7 +470,7 @@ button:hover {
   position: relative;
   padding: 165px 0 65px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .page-title {
     padding: 140px 0 65px;
   }
@@ -800,7 +811,7 @@ button:hover {
 .speakers .speaker-item .image .socials ul {
   width: 50%;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .speakers .speaker-item .image .socials ul {
     width: 100%;
     text-align: center;
@@ -811,13 +822,13 @@ button:hover {
   margin-right: 7px;
   margin-bottom: 10px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .speakers .speaker-item .image .socials ul li.list-inline-item:not(:last-child) {
     margin-right: 5px;
     margin-left: 5px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .speakers .speaker-item .image .socials ul li.list-inline-item:last-child {
     margin-right: 5px;
     margin-left: 5px;
@@ -1351,7 +1362,7 @@ button:hover {
   border-radius: 100%;
   z-index: 100;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
   .speakers-full-width .speaker-slider .slick-prev,
   .speakers-full-width .speaker-slider .slick-next {
     height: 35px;
@@ -1481,7 +1492,7 @@ button:hover {
 .organiser .organiser-item .image .socials ul {
   width: 50%;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .organiser .organiser-item .image .socials ul {
     width: 100%;
     text-align: center;
@@ -1492,13 +1503,13 @@ button:hover {
   margin-right: 7px;
   margin-bottom: 10px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .organiser .organiser-item .image .socials ul li.list-inline-item:not(:last-child) {
     margin-right: 5px;
     margin-left: 5px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .organiser .organiser-item .image .socials ul li.list-inline-item:last-child {
     margin-right: 5px;
     margin-left: 5px;
@@ -1854,7 +1865,7 @@ button:hover {
 .schedule.two .schedule-contents .schedule-item ul li .subject {
   width: 30%;
 }
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
   .schedule.two .schedule-contents .schedule-item ul li .subject {
     display: none;
   }
